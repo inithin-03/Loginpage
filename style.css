@@ -1,0 +1,134 @@
+body {
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+    /* margin-left: 30px; */
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background: #fff;
+    box-shadow: 4px 4px 24px rgba(0,0,0,0.12);
+    padding: 25px 25px;
+    min-width: 900px;
+    min-height: 200px;
+    background-color: #fefeff;
+}
+
+.container-1 {
+    margin-top: auto;
+    display: flex;
+    width: 100%;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    margin-right: 24px;
+}
+
+.content-1 img {
+    width: 350px;
+    height: 400px;
+}
+
+.content-1 p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content-2 {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 48%;
+}
+
+.content-2 h2 { 
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    text-align: left;
+}
+
+.content-2 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2 label {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.input-wrapper {
+    position: relative;
+    width:100%;
+}
+
+.input-line {
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid #1976d2;
+  background: #fff;
+  padding: 10px 0 8px 10px;
+  margin-bottom: 24px;
+  font-size: 1em;
+  border-radius: 0;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.content-2 button[type="submit"] {
+    padding: 10px 0;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 60px;    
+    height: 40px;
+}
+
+.container-2 {
+    display: flex;
+    width: 100%;
+}
+
+.CACT {
+    width: 50%;
+    /* background-color: blue; */
+    margin-right: 24px;;
+}
+
+.CACT p {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.LoginUsing {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+
+.LoginUsing img {
+    margin-left: 1%;
+    width:20px;
+    height: 20px;
+    margin-right: 1%;
+}
